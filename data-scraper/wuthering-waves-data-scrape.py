@@ -29,7 +29,7 @@ def fetch_events():
             print(name)
             imageURL = event.select_one('img').get('src')
             duration = (event.select_one('.ct-meta-element-date').text, None)
-            type = event.select_one(".ct-term-12").text
+            type = [event.select_one(".ct-term-12").text]
             status = None
             page = event.select_one(".entry-title > a").get('href')
             
