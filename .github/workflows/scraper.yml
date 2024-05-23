@@ -24,7 +24,7 @@ jobs:
           pip install -r data-scraper/requirements.txt
           
       - name: execute wuthering-waves-data-scraper script
-        run: python wuthering-waves-data-scrape.py
+        run: python data-scraper/wuthering-waves-data-scrape.py
           
       - name: commit files
         run: |
