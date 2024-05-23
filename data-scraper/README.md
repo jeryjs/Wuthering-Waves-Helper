@@ -1,0 +1,1 @@
+A data scraper for this [Wuthering Waves Helper](https://github.com/jeryjs/Wuthering-Waves-Helper) app for getting redemption codes and events from [wutheringwaves.gg](https://wutheringwaves.gg) and [game8.com](https://game8.co/games/Wuthering-Waves) automatically and saving them in json for it to accessible via api calls.
