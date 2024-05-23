@@ -1,6 +1,2 @@
 requests
 bs4
-difflib
-json
-traceback
-re
