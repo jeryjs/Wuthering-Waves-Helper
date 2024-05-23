@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#008000</color>
+    <color name="red">#FF0000</color>
+
+    <!-- Primary brand color. -->
+    <color name="colorPrimary">#f3f0e9</color>
+    <color name="colorPrimaryDark">#e9e2da</color>
+    <color name="colorOnPrimary">#555555</color>
+    <color name="colorAccent">#7d5b3f</color>
+    <color name="colorAccentVariant">#baa694</color>
+    <!-- Secondary brand color. -->
+    <color name="colorSecondary">#7d5b3f</color>
+    <color name="colorSecondaryVariant">#baa694</color>
+    <color name="colorOnSecondary">#2a2e30</color>
+    <!-- Status bar color. -->
+    <color name="statusBarColor">@color/colorAccentVariant</color>
+    <color name="navigationBarColor">@color/colorAccentVariant</color>
+    <color name="colorBackground">#e9e2da</color>
+</resources>

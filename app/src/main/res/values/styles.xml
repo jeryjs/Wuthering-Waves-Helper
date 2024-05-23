@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tvHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/zh_cn_modify</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ivHeader">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:alpha">0.3</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/bg_header</item>
+        <item name="android:tint">@color/colorAccentVariant</item>
+    </style>
+
+    <style name="rvEvents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+<!--        <item name="android:visibility">gone</item>-->
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:scrollbarThumbHorizontal">@color/colorAccent</item>
+    </style>
+
+</resources>

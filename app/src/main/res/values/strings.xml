@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Star Rail Helper</string>
+    <string name="code_prefix">CODE: </string>
+    <string name="active_codes_header">Active Codes</string>
+    <string name="expired_codes_header">Expired Codes</string>
+    <string name="web_events_header">Web Events</string>
+    <string name="redeem_code">Redeem Code</string>
+</resources>
