@@ -12,6 +12,8 @@ jobs:
 
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner
+        with:
+          fetch-depth: 0
 
       - name: setup python
         uses: actions/setup-python@v4
@@ -37,4 +39,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main 
+          branch: main
