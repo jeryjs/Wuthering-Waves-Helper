@@ -7,7 +7,9 @@
                 "May 23, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/echo-starter-pack/"
         },
@@ -18,7 +20,9 @@
                 "May 19, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/depths-of-illusive-realm/"
         },
@@ -29,7 +33,9 @@
                 "May 19, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/overdash-club/"
         },
@@ -40,7 +46,9 @@
                 "May 19, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/alloy-smelt/"
         },
@@ -51,7 +59,9 @@
                 "May 19, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/second-coming-of-solaris/"
         },
@@ -62,7 +72,9 @@
                 "April 30, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/echo-summon/"
         }
