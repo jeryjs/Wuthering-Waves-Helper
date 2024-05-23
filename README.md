@@ -5,7 +5,7 @@ Wuthering Waves Helper is an event and redemption code tracker app written in `K
 
 The events are scraped from [WutheringWaves.gg](https://wutheringwaves.gg/news/event/) while the codes are scraped from [Game8.com](https://game8.co/games/Wuthering-Waves/) using my [data-scraper-for-wuthering-waves-helper](https://github.com/jeryjs/Wuthering-Waves-Helper/tree/main/data-scraper) script with github actions.
 
-This is port of my [Honkai: Star Rail Helper](https://github.com/jeryjs/Star-Rail-Helper) app for Wuthering Waves, but should eventually become its own uniqe app!! ~~hopefully?~~
+This is an adaptation of my [Honkai: Star Rail Helper](https://github.com/jeryjs/Star-Rail-Helper) app for Wuthering Waves, but should eventually become its own uniqe app!! ~~hopefully?~~
 
 ## Screenshots
 (will be updated soon)
