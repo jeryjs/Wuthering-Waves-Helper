@@ -7,7 +7,9 @@
                 "May 23, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/echo-starter-pack/"
         },
@@ -18,7 +20,9 @@
                 "May 19, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/depths-of-illusive-realm/"
         },
@@ -29,7 +33,9 @@
                 "May 19, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/overdash-club/"
         },
@@ -40,7 +46,9 @@
                 "May 19, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/alloy-smelt/"
         },
@@ -51,7 +59,9 @@
                 "May 19, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/second-coming-of-solaris/"
         },
@@ -62,55 +72,15 @@
                 "April 30, 2024",
                 null
             ],
-            "type": "Event",
+            "type": [
+                "Event"
+            ],
             "status": null,
             "page": "https://wutheringwaves.gg/echo-summon/"
         }
     ],
     "Codes": {
-        "activeCodes": [
-            {
-                "code": "WUTHERINGGIFT",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Astrite",
-                        "amount": "50",
-                        "rarity": "5",
-                        "imageURL": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_zcpq_UI.png"
-                    },
-                    {
-                        "name": "Premium Resonance Potion",
-                        "amount": "2",
-                        "rarity": "3",
-                        "imageURL": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_exp_2_UI.png"
-                    },
-                    {
-                        "name": "Medium Revival Inhaler",
-                        "amount": "2",
-                        "rarity": "3",
-                        "imageURL": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_014_UI.png"
-                    },
-                    {
-                        "name": "Medium Energy Bag",
-                        "amount": "2",
-                        "rarity": "3",
-                        "imageURL": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Exp_2_UI.png"
-                    },
-                    {
-                        "name": "Shell Credit",
-                        "amount": "15000",
-                        "rarity": "3",
-                        "imageURL": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_hsb_UI.png"
-                    }
-                ],
-                "duration": [
-                    null,
-                    null
-                ],
-                "isExpired": null
-            }
-        ],
+        "activeCodes": [],
         "expiredCodes": []
     }
 }
