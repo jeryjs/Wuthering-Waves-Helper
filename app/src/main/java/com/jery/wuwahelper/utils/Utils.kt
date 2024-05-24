@@ -1,4 +1,4 @@
-package com.jery.starrailhelper.utils
+package com.jery.wuwahelper.utils
 
 import android.annotation.SuppressLint
 import android.content.ClipData
@@ -14,10 +14,10 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.BaseTransientBottomBar.ANIMATION_MODE_SLIDE
 import com.google.android.material.snackbar.Snackbar
-import com.jery.starrailhelper.activity.MainActivity.Companion.getAppContext
-import com.jery.starrailhelper.data.CodeItem
-import com.jery.starrailhelper.data.EventItem
-import com.jery.starrailhelper.data.RewardItem
+import com.jery.wuwahelper.activity.MainActivity.Companion.getAppContext
+import com.jery.wuwahelper.data.CodeItem
+import com.jery.wuwahelper.data.EventItem
+import com.jery.wuwahelper.data.RewardItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.Cache
@@ -48,51 +48,28 @@ object Utils {
         }
     }
 
-//    suspend fun fetchEvents(): List<EventItem> = withContext(Dispatchers.IO) {
-//        val url = URL("https://honkai-star-rail.fandom.com/wiki/Events")
-//        val urlConnection: HttpURLConnection = url.openConnection() as HttpURLConnection
-//        urlConnection.requestMethod = "GET"
-//        val inputStream: InputStream = urlConnection.inputStream
-//        val response = inputStream.bufferedReader().use(BufferedReader::readText)
-//        val doc = Jsoup.parse(response)
-//
-//        val curEvents = doc.select(".wikitable")[0]!!.select("tbody > tr:not(tr:first-child)")
-//        val upcEvents = doc.select(".wikitable")[1]!!.select("tbody > tr:not(tr:first-child)")
-//        val perEvents = doc.select(".wikitable")[2]!!.select("tbody > tr:not(tr:first-child)")
-//
-//        val allEvents = curEvents.map {
-//            val event = it.children()[0].text()
-//            val image = it.select("img").attr("data-src").ifEmpty { it.select("img").attr("src") }.replace("scale-to-width-down/250", "scale-to-width-down/500")
-//            val duration = parseDuration( it.children()[1].text() )
-//            val type = it.children()[2].text()
-//            EventItem(event, image, duration, type)
-//        }
-//        return@withContext allEvents.filter{it.type=="Web"}
-//    }
     suspend fun fetchEvents(): List<EventItem> = withContext(Dispatchers.IO) {
-        val response = fetch("https://raw.githubusercontent.com/jeryjs/data-scraper-for-star-rail-helper/main/star-rail-data.json")
-        val eventsJson = JSONObject(response).getJSONObject("Events")
+        val response = fetch("https://raw.githubusercontent.com/jeryjs/wuthering-waves-helper/main/data-scraper/wuthering-waves-data.json")
+        val eventsArray = JSONObject(response).getJSONArray("Events")
         val allEvents = mutableListOf<EventItem>()
 
-        for (eventsType in eventsJson.keys()) {
-            val eventsArray = eventsJson.getJSONArray(eventsType)
-            for (i in 0 until eventsArray.length()) {
-                val eventObj = eventsArray.getJSONObject(i)
-                val event = eventObj.getString("event")
-                val image = eventObj.getString("image")
-                val duration = eventObj.getJSONArray("duration").let { it.optString(0, null) to it.optString(1, null) }
-                val type = eventObj.getJSONArray("type")[0].toString()
-                val status = eventObj.getString("status")
-                val page = eventObj.getString("page")
-                allEvents.add(EventItem(event, image, duration, type, status, page))
-            }
+        for (i in 0 until eventsArray.length()) {
+            val eventObj = eventsArray.getJSONObject(i)
+            val event = eventObj.getString("event")
+            val image = eventObj.getString("image")
+            val duration = eventObj.getJSONArray("duration").let { it.optString(0, null) to it.optString(1, null) }
+//            val type = eventObj.getJSONArray("type")[0].toString()
+            val type = eventObj.getString("type")
+            val status = eventObj.optString("status", "Unknown")
+            val page = eventObj.getString("page")
+            allEvents.add(EventItem(event, image, duration, type, status, page))
         }
 
-        return@withContext allEvents.filter { "Web" in it.type }
+        return@withContext allEvents.filter { "Event" in it.type }
     }
 
     suspend fun fetchCodes(): Pair<List<CodeItem>, List<CodeItem>> = withContext(Dispatchers.IO) {
-        val response = fetch("https://raw.githubusercontent.com/jeryjs/data-scraper-for-star-rail-helper/main/star-rail-data.json")
+        val response = fetch("https://raw.githubusercontent.com/jeryjs/wuthering-waves-helper/main/data-scraper/wuthering-waves-data.json")
         val codesJson = JSONObject(response).getJSONObject("Codes")
         val allCodes = mutableListOf<CodeItem>()
 
@@ -104,7 +81,7 @@ object Utils {
                 val server = codeObj.getString("server")
                 val rewards = parseRewards(codeObj.getJSONArray("rewards"))
                 val duration = codeObj.getJSONArray("duration").let { it.optString(0, null) to it.optString(1, null) }
-                val isExpired = codeObj.getBoolean("isExpired")
+                val isExpired = codeObj.optBoolean("isExpired", false)
                 allCodes.add(CodeItem(code, server, rewards, duration, isExpired))
             }
         }
@@ -117,8 +94,9 @@ object Utils {
             val item = json.getJSONObject(i)
             val name = item.getString("name")
             val amount = item.getInt("amount")
+            val rarity = item.getInt("rarity")
             val imageURL = item.getString("imageURL")
-            rewardsList.add(RewardItem(name, amount, imageURL))
+            rewardsList.add(RewardItem(name, amount, rarity, imageURL))
         }
         return rewardsList
     }
@@ -127,21 +105,21 @@ object Utils {
     fun demoCodes(): Pair<List<CodeItem>, List<CodeItem>> {
         return Pair(
             listOf(
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "Unknown"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "Unknown"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "Unknown"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "Unknown"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "Unknown"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "Unknown"),
             ),
             listOf(
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
-                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Condensed Aether",3), RewardItem("Credit",10000)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
+                CodeItem("TESTCODE1024", "All", listOf(RewardItem("Astrite",20, 5), RewardItem("Shell Credit",10000,3)), "01-01-2023" to "01-01-2023"),
             )
         )
     }
@@ -149,7 +127,7 @@ object Utils {
     @SuppressLint("SdCardPath")
     @Suppress("SameParameterValue")
     private fun fetch(url: String): String {
-        val cacheDirectory = File("/data/data/com.jery.starrailhelper/cache", "okhttp-cache")
+        val cacheDirectory = File("/data/data/com.jery.wuwahelper/cache", "okhttp-cache")
         val cacheSize = 5 * 1024 * 1024 // 5 MB
         val cache = Cache(cacheDirectory, cacheSize.toLong())
 
@@ -197,7 +175,7 @@ object Utils {
         val formatter = SimpleDateFormat.getDateTimeInstance(SimpleDateFormat.DEFAULT, SimpleDateFormat.DEFAULT, Locale.getDefault())
         val formattedDate: String = formatter.format(System.currentTimeMillis())
         val logString = "[$formattedDate]\t$tag:\t$message\n"
-        val logFilePath = "/data/data/com.jery.starrailhelper/files/logs.txt"
+        val logFilePath = "/data/data/com.jery.wuwahelper/files/logs.txt"
         try {
             val outputStream = FileOutputStream(logFilePath, true) // Use append mode
             outputStream.write(logString.toByteArray())

@@ -1,11 +1,11 @@
-package com.jery.starrailhelper.fragment
+package com.jery.wuwahelper.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.jery.starrailhelper.R
+import com.jery.wuwahelper.R
 
 class SettingsFragment : Fragment() {
     override fun onCreateView(

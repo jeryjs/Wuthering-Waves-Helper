@@ -6,7 +6,7 @@
 
     <data>
         <variable name="eventItem"
-            type="com.jery.starrailhelper.data.EventItem" />
+            type="com.jery.wuwahelper.data.EventItem" />
     </data>
 
     <LinearLayout

@@ -1,9 +1,9 @@
-package com.jery.starrailhelper.data
+package com.jery.wuwahelper.data
 
 import android.content.Context
 import androidx.core.content.ContextCompat
-import com.jery.starrailhelper.R
-import com.jery.starrailhelper.activity.MainActivity.Companion.getAppContext
+import com.jery.wuwahelper.R
+import com.jery.wuwahelper.activity.MainActivity.Companion.getAppContext
 
 data class CodeItem(
     val code: String,

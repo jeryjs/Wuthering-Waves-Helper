@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.jery.starrailhelper",
+  "applicationId": "com.jery.wuwahelper",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 5,
-      "versionName": "0.0.10-alpha",
+      "versionCode": 1,
+      "versionName": "0.0.1-alpha",
       "outputFile": "app-release.apk"
     }
   ],

@@ -1,4 +1,4 @@
-package com.jery.starrailhelper.adapter
+package com.jery.wuwahelper.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -15,12 +15,12 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade
 import com.bumptech.glide.request.transition.DrawableCrossFadeFactory
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.jery.starrailhelper.R
-import com.jery.starrailhelper.data.CodeItem
-import com.jery.starrailhelper.databinding.BottomSheetLayoutBinding
-import com.jery.starrailhelper.databinding.ItemCodeBinding
-import com.jery.starrailhelper.databinding.ItemRewardBinding
-import com.jery.starrailhelper.utils.Utils
+import com.jery.wuwahelper.R
+import com.jery.wuwahelper.data.CodeItem
+import com.jery.wuwahelper.databinding.BottomSheetLayoutBinding
+import com.jery.wuwahelper.databinding.ItemCodeBinding
+import com.jery.wuwahelper.databinding.ItemRewardBinding
+import com.jery.wuwahelper.utils.Utils
 
 class CodeAdapter(
     private val codes: MutableList<CodeItem>
@@ -55,7 +55,8 @@ class CodeAdapter(
                 executePendingBindings()
                 itemView.setOnClickListener { onItemClick(codeItem, ctx) }
                 ivIcon.setOnLongClickListener { codeItem.isRedeemed = (!codeItem.isRedeemed); notifyItemChanged(layoutPosition); false }
-                ivRedeem.setOnClickListener { redeem(codeItem.code, ctx); codeItem.isRedeemed = true; notifyItemChanged(layoutPosition) }
+//                ivRedeem.setOnClickListener { redeem(codeItem.code, ctx); codeItem.isRedeemed = true; notifyItemChanged(layoutPosition) }
+                ivRedeem.isEnabled = false
             }
             try {
                 Glide.with(ctx)
@@ -102,7 +103,8 @@ class CodeAdapter(
             dialogBinding.rCode.setOnClickListener { Utils.copyToClipboard(codeItem.code, itemView.rootView) }
             dialogBinding.rStatus.text = codeItem.duration.first +" / "+ codeItem.duration.second
             dialogBinding.redeemBtn.text = if (codeItem.isRedeemed) "Redeem once again" else "Redeem Code"
-            dialogBinding.redeemBtn.setOnClickListener { redeem(codeItem.code, ctx); codeItem.isRedeemed = true; notifyItemChanged(layoutPosition) }
+//            dialogBinding.redeemBtn.setOnClickListener { redeem(codeItem.code, ctx); codeItem.isRedeemed = true; notifyItemChanged(layoutPosition) }
+            dialogBinding.redeemBtn.isEnabled = false
             bottomSheetDialog.show()
         }
 

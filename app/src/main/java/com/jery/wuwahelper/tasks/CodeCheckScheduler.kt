@@ -1,11 +1,11 @@
-package com.jery.starrailhelper.tasks
+package com.jery.wuwahelper.tasks
 
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import com.jery.starrailhelper.utils.Utils.log
+import com.jery.wuwahelper.utils.Utils.log
 import java.util.concurrent.TimeUnit
 
 class CodeCheckScheduler {

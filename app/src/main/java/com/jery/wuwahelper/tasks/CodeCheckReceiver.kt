@@ -1,4 +1,4 @@
-package com.jery.starrailhelper.tasks
+package com.jery.wuwahelper.tasks
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -10,11 +10,11 @@ import android.content.Intent
 import android.media.RingtoneManager
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.jery.starrailhelper.R
-import com.jery.starrailhelper.activity.MainActivity
-import com.jery.starrailhelper.data.CodeItem
-import com.jery.starrailhelper.utils.Utils
-import com.jery.starrailhelper.utils.Utils.log
+import com.jery.wuwahelper.R
+import com.jery.wuwahelper.activity.MainActivity
+import com.jery.wuwahelper.data.CodeItem
+import com.jery.wuwahelper.utils.Utils
+import com.jery.wuwahelper.utils.Utils.log
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

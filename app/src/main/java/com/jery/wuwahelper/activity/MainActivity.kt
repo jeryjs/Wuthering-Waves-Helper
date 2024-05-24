@@ -1,4 +1,4 @@
-package com.jery.starrailhelper.activity
+package com.jery.wuwahelper.activity
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -17,14 +17,14 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.snackbar.Snackbar
-import com.jery.starrailhelper.R
-import com.jery.starrailhelper.adapter.CodeAdapter
-import com.jery.starrailhelper.adapter.EventAdapter
-import com.jery.starrailhelper.data.CodeItem
-import com.jery.starrailhelper.data.EventItem
-import com.jery.starrailhelper.databinding.ActivityMainBinding
-import com.jery.starrailhelper.tasks.CodeCheckScheduler
-import com.jery.starrailhelper.utils.Utils
+import com.jery.wuwahelper.R
+import com.jery.wuwahelper.adapter.CodeAdapter
+import com.jery.wuwahelper.adapter.EventAdapter
+import com.jery.wuwahelper.data.CodeItem
+import com.jery.wuwahelper.data.EventItem
+import com.jery.wuwahelper.databinding.ActivityMainBinding
+import com.jery.wuwahelper.tasks.CodeCheckScheduler
+import com.jery.wuwahelper.utils.Utils
 import kotlinx.coroutines.launch
 import java.io.File
 
@@ -160,6 +160,7 @@ class MainActivity : AppCompatActivity() {
             val events = try { Utils.fetchEvents() } catch (e: Exception) {
                 Utils.log(TAG, "Failed to fetch events: $e")
                 Snackbar.make(binding.root, "Failed to fetch events: $e", Snackbar.LENGTH_SHORT).show()
+                e.printStackTrace()
                 binding.swipeRefresh.isRefreshing = false
                 return@launch
             }
@@ -172,6 +173,7 @@ class MainActivity : AppCompatActivity() {
             val (ac, ec) = try { Utils.fetchCodes() } catch (e: Exception) {
                 Utils.log(TAG, "Failed to fetch codes: $e")
                 Snackbar.make(binding.root, "Failed to fetch codes: $e", Snackbar.LENGTH_SHORT).show()
+                e.printStackTrace()
                 binding.swipeRefresh.isRefreshing = false
                 return@launch
             }

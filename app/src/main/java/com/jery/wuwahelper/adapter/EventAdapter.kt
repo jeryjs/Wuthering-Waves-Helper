@@ -1,4 +1,4 @@
-package com.jery.starrailhelper.adapter
+package com.jery.wuwahelper.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -15,10 +15,10 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.transition.DrawableCrossFadeFactory
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.jery.starrailhelper.R
-import com.jery.starrailhelper.data.EventItem
-import com.jery.starrailhelper.databinding.ItemEventBinding
-import com.jery.starrailhelper.utils.Utils
+import com.jery.wuwahelper.R
+import com.jery.wuwahelper.data.EventItem
+import com.jery.wuwahelper.databinding.ItemEventBinding
+import com.jery.wuwahelper.utils.Utils
 
 class EventAdapter (
     private val events: MutableList<EventItem>
@@ -46,6 +46,7 @@ class EventAdapter (
     override fun getItemViewType(position: Int): Int {
         val eventItem = getItem(position)
         return when (eventItem.status) {
+            "null" -> VIEW_TYPE_CURRENT
             "Current" -> VIEW_TYPE_CURRENT
             "Upcoming" -> VIEW_TYPE_UPCOMING
             "Permanent" -> VIEW_TYPE_PERMANENT
@@ -54,7 +55,7 @@ class EventAdapter (
     }
 
     private fun getItem(position: Int): EventItem {
-        val currentEvents = events.filter { it.status == "Current" }
+        val currentEvents = events.filter { it.status == "Current" || it.status == "null" }
         val upcomingEvents = events.filter { it.status == "Upcoming" }
         val permanentEvents = events.filter { it.status == "Permanent" }
 

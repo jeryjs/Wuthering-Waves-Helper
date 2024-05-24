@@ -6,9 +6,9 @@
 
     <data>
         <variable name="codeItem"
-            type="com.jery.starrailhelper.data.CodeItem" />
+            type="com.jery.wuwahelper.data.CodeItem" />
         <variable name="Utils"
-            type="com.jery.starrailhelper.utils.Utils" />
+            type="com.jery.wuwahelper.utils.Utils" />
     </data>
 
     <LinearLayout

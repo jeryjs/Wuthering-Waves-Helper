@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace 'com.jery.starrailhelper'
+    namespace 'com.jery.wuwahelper'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.jery.starrailhelper"
+        applicationId "com.jery.wuwahelper"
         minSdk 26
         targetSdk 34
-        versionCode 5
-        versionName "0.0.10-alpha"
+        versionCode 1
+        versionName "0.0.1-alpha"
     }
 
     buildTypes {
@@ -38,10 +38,10 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.core:core-ktx:1.13.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.11.0'
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.0'
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01"
 
     implementation 'org.jsoup:jsoup:1.16.1'
