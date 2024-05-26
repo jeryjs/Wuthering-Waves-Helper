@@ -1,19 +1,6 @@
 {
     "Events": [
         {
-            "event": "Echo Hunters Event Guide",
-            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Echo-Hunters-Event-768x431.jpg",
-            "duration": [
-                "May 24, 2024",
-                null
-            ],
-            "type": [
-                "Event"
-            ],
-            "status": null,
-            "page": "https://wutheringwaves.gg/echo-hunters/"
-        },
-        {
             "event": "Echo Starter Pack",
             "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Epic-Game-Store-Echo-Starter-Pack-768x432.jpg",
             "duration": [
@@ -25,58 +12,6 @@
             ],
             "status": null,
             "page": "https://wutheringwaves.gg/echo-starter-pack/"
-        },
-        {
-            "event": "Depths of Illusive Realm",
-            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Event-Depths-of-Illusive-Realm-768x442.png",
-            "duration": [
-                "May 19, 2024",
-                null
-            ],
-            "type": [
-                "Event"
-            ],
-            "status": null,
-            "page": "https://wutheringwaves.gg/depths-of-illusive-realm/"
-        },
-        {
-            "event": "Overdash Club",
-            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Event-Overdash-Club-768x442.png",
-            "duration": [
-                "May 19, 2024",
-                null
-            ],
-            "type": [
-                "Event"
-            ],
-            "status": null,
-            "page": "https://wutheringwaves.gg/overdash-club/"
-        },
-        {
-            "event": "Alloy Smelt",
-            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Event-Alloy-Smelt-768x442.png",
-            "duration": [
-                "May 19, 2024",
-                null
-            ],
-            "type": [
-                "Event"
-            ],
-            "status": null,
-            "page": "https://wutheringwaves.gg/alloy-smelt/"
-        },
-        {
-            "event": "Second Coming of Solaris",
-            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Event-Second-Coming-of-Solaris-768x442.png",
-            "duration": [
-                "May 19, 2024",
-                null
-            ],
-            "type": [
-                "Event"
-            ],
-            "status": null,
-            "page": "https://wutheringwaves.gg/second-coming-of-solaris/"
         },
         {
             "event": "Echo Summon Web Event",
