@@ -1,6 +1,19 @@
 {
     "Events": [
         {
+            "event": "Intensive Training \u2013 Limited Time EXP Material Double Drop Event",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/06/Wuthering-Waves-Intensive-Training-Event-768x338.jpg",
+            "duration": [
+                "June 4, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/intensive-training/"
+        },
+        {
             "event": "Custom 5-Star Resonator Convene Giveback Event",
             "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/image-25-5-768x277.jpg",
             "duration": [
