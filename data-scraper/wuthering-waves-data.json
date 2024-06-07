@@ -1,6 +1,123 @@
 {
     "Events": [
         {
+            "event": "When Thunder Pours \u2013 Featured Resonator Convene",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/06/featuredImage-2-768x432.jpg",
+            "duration": [
+                "June 6, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/when-thunder-pours/"
+        },
+        {
+            "event": "Absolute Pulsation: Stringmaster \u2013 Featured Weapon Convene",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/06/featuredImage-1-768x432.jpg",
+            "duration": [
+                "June 6, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/absolute-pulsation-stringmaster/"
+        },
+        {
+            "event": "Prevail the Lasting Night \u2013 Featured Resonator Convene",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Convene-Prevail-the-Lasting-Night-768x432.jpg",
+            "duration": [
+                "June 6, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/prevail-the-lasting-night/"
+        },
+        {
+            "event": "Absolute Pulsation: Verdant Summit \u2013 Featured Weapon Convene",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Convene-Absolute-Pulsation-Verdant-Summit-768x433.jpg",
+            "duration": [
+                "June 6, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/absolute-pulsation-verdant-summit/"
+        },
+        {
+            "event": "Drawn Edges \u2013 Standard Character Convene",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Drawn-Edges.jpg",
+            "duration": [
+                "June 6, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/drawn-edges/"
+        },
+        {
+            "event": "Tidal Chorus \u2013 Standard Character Convene",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Convene-Tidal-Chorus-768x432.jpg",
+            "duration": [
+                "June 6, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/tidal-chorus/"
+        },
+        {
+            "event": "Beginner\u2019s Choice Convene",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Beginners-Choice-Convene.jpg",
+            "duration": [
+                "June 6, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/beginners-choice-convene/"
+        },
+        {
+            "event": "Utterance of Marvels \u2013 Novice Convene",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Utterance-of-Marvels.jpg",
+            "duration": [
+                "June 6, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/utterance-of-marvels/"
+        },
+        {
+            "event": "Alloy Smelt \u2013 Limited Time Battle Event",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Event-Alloy-Smelt-768x442.png",
+            "duration": [
+                "June 6, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/alloy-smelt/"
+        },
+        {
             "event": "Intensive Training \u2013 Limited Time EXP Material Double Drop Event",
             "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/06/Wuthering-Waves-Intensive-Training-Event-768x338.jpg",
             "duration": [
@@ -64,19 +181,6 @@
             ],
             "status": null,
             "page": "https://wutheringwaves.gg/overdash-club/"
-        },
-        {
-            "event": "Alloy Smelt",
-            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Event-Alloy-Smelt-768x442.png",
-            "duration": [
-                "May 19, 2024",
-                null
-            ],
-            "type": [
-                "Event"
-            ],
-            "status": null,
-            "page": "https://wutheringwaves.gg/alloy-smelt/"
         },
         {
             "event": "Second Coming of Solaris",
