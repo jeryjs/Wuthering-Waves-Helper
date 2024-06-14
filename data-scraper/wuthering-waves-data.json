@@ -1,6 +1,32 @@
 {
     "Events": [
         {
+            "event": "Wuthering Exploration",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/06/featuredImage-5-768x432.jpg",
+            "duration": [
+                "June 13, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/wuthering-exploration/"
+        },
+        {
+            "event": "Second Coming of Solaris",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Event-Second-Coming-of-Solaris-768x442.png",
+            "duration": [
+                "June 13, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/second-coming-of-solaris/"
+        },
+        {
             "event": "When Thunder Pours \u2013 Featured Resonator Convene",
             "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/06/featuredImage-2-768x432.jpg",
             "duration": [
@@ -181,19 +207,6 @@
             ],
             "status": null,
             "page": "https://wutheringwaves.gg/overdash-club/"
-        },
-        {
-            "event": "Second Coming of Solaris",
-            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/05/Wuthering-Waves-Event-Second-Coming-of-Solaris-768x442.png",
-            "duration": [
-                "May 19, 2024",
-                null
-            ],
-            "type": [
-                "Event"
-            ],
-            "status": null,
-            "page": "https://wutheringwaves.gg/second-coming-of-solaris/"
         },
         {
             "event": "Echo Summon Web Event",
