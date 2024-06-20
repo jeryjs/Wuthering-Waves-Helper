@@ -1,6 +1,19 @@
 {
     "Events": [
         {
+            "event": "Chord Cleansing \u2013 Limited Time Echo Double Drop Event",
+            "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/06/featuredImage-8-768x432.jpg",
+            "duration": [
+                "June 19, 2024",
+                null
+            ],
+            "type": [
+                "Event"
+            ],
+            "status": null,
+            "page": "https://wutheringwaves.gg/chord-cleansing/"
+        },
+        {
             "event": "Wuthering Exploration",
             "image": "https://wutheringwaves.gg/wp-content/uploads/sites/8/2024/06/featuredImage-5-768x432.jpg",
             "duration": [
