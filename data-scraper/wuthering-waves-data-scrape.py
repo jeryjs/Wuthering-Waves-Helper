@@ -9,7 +9,7 @@ discord_message = ""
 
 def fetch_events():
     print('FETCHING EVENTS FOR WUTHERING WAVES...')
-    url = "https://wutheringwaves.gg/news/event/"
+    url = "https://wutheringwaves.fandom.com/wiki/Event"
     response = requests.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -17,44 +17,39 @@ def fetch_events():
     # with open("wuthering_waves_events.html", "r", encoding="utf-8") as file: html_content = file.read()
     # soup = BeautifulSoup(html_content, 'html.parser')
 
-    events = soup.select('.entry-card')
-    # statuses = ['Current', 'Upcoming', 'Permanent']
-    # all_events = {'Current': [], 'Upcoming': [], 'Permanent': []}
-    all_events = []
+    events = [soup.select('.article-table')[i].select('tbody > tr:not(:first-child)') for i in range(3)]
+    statuses = ['Current', 'Upcoming', 'Permanent']
+    all_events = {'Current': [], 'Upcoming': [], 'Permanent': []}
 
     for i, event in enumerate(events):
-        try:
-            print(f'[{i}] getting event:', end=' ')
-            name = event.select_one(".entry-title").text.strip()
-            print(name)
-            imageURL = event.select_one('img').get('src')
-            duration = (event.select_one('.ct-meta-element-date').text, None)
-            type = [event.select_one(".ct-term-12").text]
-            status = None
-            page = event.select_one(".entry-title > a").get('href')
-            
-            event_item = {
-                'event': name, 
-                'image': imageURL,
-                'duration': duration,
-                'type': type,
-                'status': status,
-                'page': page
-            }
+        print(f'Getting {statuses[i]} events...')
+        for index, row in enumerate(event):
+            try:
+                row.contents = [e for e in row.contents if e != '\n']   # remove newline elements
+                print(f'[{index}] getting event:', end=' ')
+                name = row.contents[0].text.strip()
+                print(name)
+                imageURL = row.select_one('img').get('data-src', '') or row.select_one('img').get('src', '').strip()
+                duration = row.contents[1].text.split(' – ')
+                type = row.contents[2].text.strip()
+                status = statuses[events.index(event)]
+                page = 'https://wutheringwaves.fandom.com' + row.contents[0].select_one('a').get('href', '/wiki/Event').strip()
+                
+                table = { 'event': name, 'image': imageURL, 'duration': duration, 'type': type, 'status': status, 'page': page}
 
-            all_events.append(event_item)
-        except Exception as e:
-            print("Error: " + str(e.args[0]))
-            global discord_message
-            error_count = discord_message.count('\n')+1
-            discord_message += f"> `[{error_count}] Error: {str(e.args[0])}`\n"
+                all_events[status].append(table)
+            except Exception as e:
+                print("Error: " + str(e.args[0]))
+                global discord_message
+                error_count = discord_message.count('\n')+1
+                discord_message += f"> `[{error_count}] Error: {str(e.args[0])}`\n"
 
     return all_events
 
 
 def fetch_codes():
     print('FETCHING CODES FOR WUTHERING WAVES...')
-    url = "https://game8.co/games/Wuthering-Waves/archives/453149"
+    url = "https://wutheringwaves.fandom.com/wiki/Redemption_Code"
     response = requests.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -62,17 +57,19 @@ def fetch_codes():
     # with open("wuthering_waves_codes.html", "r", encoding="utf-8") as file: html_content = file.read()
     # soup = BeautifulSoup(html_content, 'html.parser')
 
-    table = soup.select('.a-table')[0].select('tr:not(:first-child)')
+    table = soup.select('.wikitable')[0].select('tbody > tr:not(:first-child)')
+
     codes = {'activeCodes': [], 'expiredCodes': []}
-    for index, code_row in enumerate(table):
+    for index, row in enumerate(table):
         try:
+            row.contents = [e for e in row.contents if e != '\n']   # remove newline elements
             print(f'[{index}] getting code:', end=' ')
-            code = code_row.select('td')[0].text.strip()
+            code = row.contents[0].text.split('[')[0].split('(')[0].strip()
             print(code)
-            server = "All"
-            rewards = parse_rewards(code_row.select('td')[1])
-            duration = (None, None)     #parse_duration(code_row.select('td')[3])
-            is_expired = None   #'Expired:' in code_row.select('td')[3].text
+            server = row.contents[1].text.strip()
+            rewards = parse_rewards(row.contents[2])
+            duration = parse_duration(row.contents[3])
+            is_expired = 'Expired:' in row.contents[3].text
 
             code_item = {
                 'code': code,
@@ -83,7 +80,7 @@ def fetch_codes():
             }
 
             if rewards == []:
-                pass
+                continue
             elif is_expired:
                 codes['expiredCodes'].append(code_item)
             else:
@@ -97,37 +94,26 @@ def fetch_codes():
     return codes
 
 def parse_rewards(html_element):
-    with open("wuwa-items-list.htm", "r", encoding="utf-8") as file: item_list_content = file.read()
-    item_list_soup = BeautifulSoup(item_list_content, 'html.parser')
     rewards_list = []
 
-    for item in html_element.text.split('●')[1:]:
-        it = re.match(r"(.+) x(\d+)$", item.strip())
-        name = it.group(1)
-        amount = it.group(2)
-        
-        rarity, image_url = None, None
-        for row in item_list_soup.select('table.items-table tr'):
-            row_name = row.select_one('div.name')
-            if (row_name != None) and (SequenceMatcher(None, name, row_name.text).ratio() >= 0.8):
-                rarity = re.match(r"quality(\d+)", row_name.get('class')[1]).group(1)
-                image_url = "https://wuthering.gg" + row.select_one('img').get('src')
-                break
+    for item in html_element.select('span.card-body'):
+        name = item.select_one('span.card-image-container a')['title'].strip()
+        amount = item.select_one('span.card-text').text.strip()
+        image_url = item.select_one('span.card-image-container a > img').get('data-src', '') or item.select_one('.card-image-container a > img').get('src', '')
 
         rewards_list.append({
             'name': name,
             'amount': amount,
-            'rarity': rarity,
             'imageURL': image_url
         })
-    return rewards_list
 
+    return rewards_list
 
 def parse_duration(duration_html):
     duration = str(duration_html).split('>')
     for i in range(len(duration)): 
-        duration[i] = duration[i].replace('<br/', '').replace('</b', '').strip()
-    return [duration[1], duration[3]]
+        duration[i] = duration[i].replace('<br/', '').replace('\n</td', '').strip()
+    return [duration[1], duration[2]]
 
 
 def save_to_json(events, codes):
