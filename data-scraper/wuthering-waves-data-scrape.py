@@ -122,7 +122,7 @@ def save_to_json(events, codes):
         'Codes': codes
     }
 
-    with open("wuthering-waves-data.json", "w") as json_file:
+    with open("data-scraper/wuthering-waves-data.json", "w") as json_file:
         json.dump(data, json_file, indent=4)
 
 def discord_notify(content, error=False):
