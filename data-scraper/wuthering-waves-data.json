@@ -1,7 +1,305 @@
 {
-    "Events": [],
+    "Events": {
+        "Current": [
+            {
+                "event": "Wuthering Waves x Twitch: Support a Streamer",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a9/Collaboration_Wuthering_Waves_%C3%97_Twitch.png/revision/latest/scale-to-width-down/200?cb=20240701064711",
+                "duration": [
+                    "May 22, 2024",
+                    "August 31, 2024\n"
+                ],
+                "type": "1.0",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_x_Twitch"
+            },
+            {
+                "event": "Wuthering Waves x pixiv Illustration Contest",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f8/Collaboration_Wuthering_Waves_%C3%97_pixiv.png/revision/latest/scale-to-width-down/200?cb=20240802193727",
+                "duration": [
+                    "June 28, 2024",
+                    "August 18, 2024\n"
+                ],
+                "type": "1.1",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_x_pixiv"
+            },
+            {
+                "event": "Soliciting Ideas",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/20/Soliciting_Ideas.png/revision/latest/scale-to-width-down/200?cb=20240818172816",
+                "duration": [
+                    "August 12, 2024",
+                    "August 26, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Soliciting_Ideas"
+            },
+            {
+                "event": "Fan Creation Event \u201cIn the Turquoise Moonglow\u201d",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Fan_Creation_Event_2024-08-15.png/revision/latest/scale-to-width-down/200?cb=20240818162841",
+                "duration": [
+                    "August 15, 2024",
+                    "September 15, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Fan_Creation_Event/2024-08-15"
+            },
+            {
+                "event": "Version 1.2 Creator Program",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0f/Version_1.2_Creator_Program.png/revision/latest/scale-to-width-down/200?cb=20240818184949",
+                "duration": [
+                    "August 15, 2024",
+                    "September 28, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Version_1.2_Creator_Program"
+            },
+            {
+                "event": "Deadline Warriors 4-Koma Comic Challenge",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/e/ef/Deadline_Warriors.jpg/revision/latest/scale-to-width-down/200?cb=20240819010200",
+                "duration": [
+                    "August 17, 2024",
+                    "August 31, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Deadline_Warriors"
+            },
+            {
+                "event": "By Moon's Grace",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2f/By_Moon%27s_Grace.jpg/revision/latest/scale-to-width-down/200?cb=20240815145507",
+                "duration": [
+                    "August 15, 2024",
+                    "September 28, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/By_Moon%27s_Grace"
+            },
+            {
+                "event": "Gifts of Lunar Radiance",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f8/Gifts_of_Lunar_Radiance.png/revision/latest/scale-to-width-down/200?cb=20240815145727",
+                "duration": [
+                    "August 15, 2024",
+                    "September 28, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Lunar_Radiance"
+            },
+            {
+                "event": "Depths of Illusive Realm: Carnival in Slumberland",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/b/be/Depths_of_Illusive_Realm_Carnival_in_Slumberland.jpg/revision/latest/scale-to-width-down/200?cb=20240809025118",
+                "duration": [
+                    "August 22, 2024",
+                    "September 23, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Depths_of_Illusive_Realm/2024-08-22"
+            }
+        ],
+        "Upcoming": [
+            {
+                "event": "Do Echoids Dream of Electric Sheep?",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/4/48/Do_Echoids_Dream_of_Electric_Sheep%3F.jpg/revision/latest/scale-to-width-down/200?cb=20240808200340",
+                "duration": [
+                    "September 5, 2024",
+                    "September 26, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Do_Echoids_Dream_of_Electric_Sheep%3F"
+            },
+            {
+                "event": "Alloy Smelt II",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9a/Alloy_Smelt_1.2.jpg/revision/latest/scale-to-width-down/200?cb=20240808185629",
+                "duration": [
+                    "September 16, 2024",
+                    "September 28, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Alloy_Smelt/1.2"
+            }
+        ],
+        "Permanent": [
+            {
+                "event": "Awakening Journey",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d3/AwakeningJourney.png/revision/latest/scale-to-width-down/200?cb=20240614092830",
+                "duration": [
+                    "May 23, 2024",
+                    "Indefinite\n"
+                ],
+                "type": "1.0",
+                "status": "Permanent",
+                "page": "https://wutheringwaves.fandom.com/wiki/Awakening_Journey"
+            },
+            {
+                "event": "Echo Hunters",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/08/EchoHunters.png/revision/latest/scale-to-width-down/200?cb=20240614085520",
+                "duration": [
+                    "May 23, 2024",
+                    "Indefinite\n"
+                ],
+                "type": "1.0",
+                "status": "Permanent",
+                "page": "https://wutheringwaves.fandom.com/wiki/Echo_Hunters"
+            },
+            {
+                "event": "Gifts of Thawing Frost",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/a/ac/GiftsOfThawingFrost.png/revision/latest/scale-to-width-down/200?cb=20240614095406",
+                "duration": [
+                    "May 23, 2024",
+                    "Indefinite\n"
+                ],
+                "type": "1.0",
+                "status": "Permanent",
+                "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Thawing_Frost"
+            },
+            {
+                "event": "Rumbling Hollows",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a7/Rumbling_Hollows.png/revision/latest/scale-to-width-down/200?cb=20240614092924",
+                "duration": [
+                    "May 23, 2024",
+                    "Indefinite\n"
+                ],
+                "type": "1.0",
+                "status": "Permanent",
+                "page": "https://wutheringwaves.fandom.com/wiki/Rumbling_Hollows"
+            },
+            {
+                "event": "Reprise of Tides",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f7/Reprise_of_Tides.jpg/revision/latest/scale-to-width-down/200?cb=20240815145816",
+                "duration": [
+                    "August 15, 2024",
+                    "Indefinite\n"
+                ],
+                "type": "1.2",
+                "status": "Permanent",
+                "page": "https://wutheringwaves.fandom.com/wiki/Reprise_of_Tides"
+            }
+        ]
+    },
     "Codes": {
-        "activeCodes": [],
+        "activeCodes": [
+            {
+                "code": "WUTHERINGGIFT",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Astrite",
+                        "amount": "50",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
+                    },
+                    {
+                        "name": "Premium Resonance Potion",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d6/Item_Premium_Resonance_Potion.png/revision/latest/scale-to-width-down/74?cb=20240528230537"
+                    },
+                    {
+                        "name": "Medium Revival Inhaler",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/8/88/Item_Medium_Revival_Inhaler.png/revision/latest/scale-to-width-down/74?cb=20240630172615"
+                    },
+                    {
+                        "name": "Medium Energy Bag",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9b/Item_Medium_Energy_Bag.png/revision/latest/scale-to-width-down/74?cb=20240630172659"
+                    },
+                    {
+                        "name": "Shell Credit",
+                        "amount": "10000",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Item_Shell_Credit.png/revision/latest/scale-to-width-down/74?cb=20240523132525"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: May 23, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "DCARD3VN7M",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Medium Resonance Potion",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d2/Item_Medium_Resonance_Potion.png/revision/latest/scale-to-width-down/74?cb=20240524152915"
+                    },
+                    {
+                        "name": "Medium Energy Core",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/18/Item_Medium_Energy_Core.png/revision/latest/scale-to-width-down/74?cb=20240524153056"
+                    },
+                    {
+                        "name": "Shell Credit",
+                        "amount": "5000",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Item_Shell_Credit.png/revision/latest/scale-to-width-down/74?cb=20240523132525"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: June 29, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "BAHAMUTKXMHM",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Medium Resonance Potion",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d2/Item_Medium_Resonance_Potion.png/revision/latest/scale-to-width-down/74?cb=20240524152915"
+                    },
+                    {
+                        "name": "Medium Energy Core",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/18/Item_Medium_Energy_Core.png/revision/latest/scale-to-width-down/74?cb=20240524153056"
+                    },
+                    {
+                        "name": "Shell Credit",
+                        "amount": "5000",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Item_Shell_Credit.png/revision/latest/scale-to-width-down/74?cb=20240523132525"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: June 29, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "PTTMYZSOM",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Medium Resonance Potion",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d2/Item_Medium_Resonance_Potion.png/revision/latest/scale-to-width-down/74?cb=20240524152915"
+                    },
+                    {
+                        "name": "Medium Energy Core",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/18/Item_Medium_Energy_Core.png/revision/latest/scale-to-width-down/74?cb=20240524153056"
+                    },
+                    {
+                        "name": "Shell Credit",
+                        "amount": "5000",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Item_Shell_Credit.png/revision/latest/scale-to-width-down/74?cb=20240523132525"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: June 30, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            }
+        ],
         "expiredCodes": []
     }
 }
