@@ -99,9 +99,7 @@
                 "type": "1.2",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Depths_of_Illusive_Realm/2024-08-22"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Do Echoids Dream of Electric Sheep?",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/4/48/Do_Echoids_Dream_of_Electric_Sheep%3F.jpg/revision/latest/scale-to-width-down/200?cb=20240808200340",
@@ -110,9 +108,11 @@
                     "September 26, 2024\n"
                 ],
                 "type": "1.2",
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Do_Echoids_Dream_of_Electric_Sheep%3F"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Alloy Smelt II",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9a/Alloy_Smelt_1.2.jpg/revision/latest/scale-to-width-down/200?cb=20240808185629",
