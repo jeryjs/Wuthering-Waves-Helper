@@ -110,9 +110,7 @@
                 "type": "1.2",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Do_Echoids_Dream_of_Electric_Sheep%3F"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Alloy Smelt II",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9a/Alloy_Smelt_1.2.jpg/revision/latest/scale-to-width-down/200?cb=20240808185629",
@@ -121,11 +119,11 @@
                     "September 28, 2024\n"
                 ],
                 "type": "1.2",
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Alloy_Smelt/1.2"
             }
         ],
-        "Permanent": [
+        "Upcoming": [
             {
                 "event": "Awakening Journey",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d3/AwakeningJourney.png/revision/latest/scale-to-width-down/200?cb=20240614092830",
@@ -134,7 +132,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Awakening_Journey"
             },
             {
@@ -145,7 +143,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Echo_Hunters"
             },
             {
@@ -156,7 +154,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Thawing_Frost"
             },
             {
@@ -167,7 +165,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Rumbling_Hollows"
             },
             {
@@ -178,10 +176,11 @@
                     "Indefinite\n"
                 ],
                 "type": "1.2",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Reprise_of_Tides"
             }
-        ]
+        ],
+        "Permanent": []
     },
     "Codes": {
         "activeCodes": [
