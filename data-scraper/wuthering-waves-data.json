@@ -68,6 +68,17 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Twitch_Drops"
             },
             {
+                "event": "Wuthering Exploration 2024-09-12",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/01/WutheringExploration2.jpg/revision/latest/scale-to-width-down/200?cb=20240918014335",
+                "duration": [
+                    "September 12, 2024",
+                    "September 26, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Exploration_2024-09-12"
+            },
+            {
                 "event": "By Moon's Grace",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2f/By_Moon%27s_Grace.jpg/revision/latest/scale-to-width-down/200?cb=20240815145507",
                 "duration": [
