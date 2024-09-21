@@ -185,43 +185,55 @@
     "Codes": {
         "activeCodes": [
             {
-                "code": "WUTHERINGGIFT",
+                "code": "BLACKSHORES",
                 "server": "All",
                 "rewards": [
                     {
                         "name": "Astrite",
-                        "amount": "50",
+                        "amount": "100",
                         "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
-                    },
-                    {
-                        "name": "Premium Resonance Potion",
-                        "amount": "2",
-                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d6/Item_Premium_Resonance_Potion.png/revision/latest/scale-to-width-down/74?cb=20240528230537"
-                    },
-                    {
-                        "name": "Medium Revival Inhaler",
-                        "amount": "2",
-                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/8/88/Item_Medium_Revival_Inhaler.png/revision/latest/scale-to-width-down/74?cb=20240630172615"
-                    },
-                    {
-                        "name": "Medium Energy Bag",
-                        "amount": "2",
-                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9b/Item_Medium_Energy_Bag.png/revision/latest/scale-to-width-down/74?cb=20240630172659"
-                    },
-                    {
-                        "name": "Shell Credit",
-                        "amount": "10000",
-                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Item_Shell_Credit.png/revision/latest/scale-to-width-down/74?cb=20240523132525"
                     }
                 ],
                 "duration": [
-                    "Discoverd: May 23, 2024",
+                    "Discoverd: September 20, 2024",
                     "<b"
                 ],
                 "isExpired": false
             },
             {
-                "code": "DCARD3VN7M",
+                "code": "SHOREKEEPER",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Astrite",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: September 20, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "FORYOU",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Astrite",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: September 20, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "PTTMYZSOM",
                 "server": "All",
                 "rewards": [
                     {
@@ -241,7 +253,7 @@
                     }
                 ],
                 "duration": [
-                    "Discoverd: June 29, 2024",
+                    "Discoverd: June 30, 2024",
                     "<b"
                 ],
                 "isExpired": false
@@ -273,7 +285,7 @@
                 "isExpired": false
             },
             {
-                "code": "PTTMYZSOM",
+                "code": "DCARD3VN7M",
                 "server": "All",
                 "rewards": [
                     {
@@ -293,7 +305,43 @@
                     }
                 ],
                 "duration": [
-                    "Discoverd: June 30, 2024",
+                    "Discoverd: June 29, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "WUTHERINGGIFT",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Astrite",
+                        "amount": "50",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
+                    },
+                    {
+                        "name": "Premium Resonance Potion",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d6/Item_Premium_Resonance_Potion.png/revision/latest/scale-to-width-down/74?cb=20240528230537"
+                    },
+                    {
+                        "name": "Medium Revival Inhaler",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/8/88/Item_Medium_Revival_Inhaler.png/revision/latest/scale-to-width-down/74?cb=20240630172615"
+                    },
+                    {
+                        "name": "Medium Energy Bag",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9b/Item_Medium_Energy_Bag.png/revision/latest/scale-to-width-down/74?cb=20240630172659"
+                    },
+                    {
+                        "name": "Shell Credit",
+                        "amount": "10000",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Item_Shell_Credit.png/revision/latest/scale-to-width-down/74?cb=20240523132525"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: May 23, 2024",
                     "<b"
                 ],
                 "isExpired": false
