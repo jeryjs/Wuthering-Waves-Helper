@@ -46,17 +46,6 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Version_1.2_Creator_Program"
             },
             {
-                "event": "Twitch Drops",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0a/Twitch_Drops_-_Watch_Livestreams_to_Claim_Rewards.png/revision/latest/scale-to-width-down/200?cb=20240912180627",
-                "duration": [
-                    "August 17, 2024",
-                    "September 14, 2024\n"
-                ],
-                "type": "1.2",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Twitch_Drops"
-            },
-            {
                 "event": "Wuthering Exploration 2024-09-12",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/01/WutheringExploration2.jpg/revision/latest/scale-to-width-down/200?cb=20240918014335",
                 "duration": [
@@ -66,6 +55,17 @@
                 "type": "1.2",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Exploration_2024-09-12"
+            },
+            {
+                "event": "Chord Cleansing 2024-09-20",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c6/Chord_Cleansing.jpg/revision/latest/scale-to-width-down/200?cb=20240805052742",
+                "duration": [
+                    "September 20, 2024",
+                    "September 27, 2024\n"
+                ],
+                "type": "1.2",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing_2024-09-20"
             },
             {
                 "event": "By Moon's Grace",
