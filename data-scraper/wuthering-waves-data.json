@@ -46,17 +46,6 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Version_1.2_Creator_Program"
             },
             {
-                "event": "Wuthering Exploration 2024-09-12",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/01/WutheringExploration2.jpg/revision/latest/scale-to-width-down/200?cb=20240918014335",
-                "duration": [
-                    "September 12, 2024",
-                    "September 26, 2024\n"
-                ],
-                "type": "1.2",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Exploration_2024-09-12"
-            },
-            {
                 "event": "Chord Cleansing 2024-09-20",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c6/Chord_Cleansing.jpg/revision/latest/scale-to-width-down/200?cb=20240805052742",
                 "duration": [
@@ -66,53 +55,10 @@
                 "type": "1.2",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing_2024-09-20"
-            },
-            {
-                "event": "By Moon's Grace",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2f/By_Moon%27s_Grace.jpg/revision/latest/scale-to-width-down/200?cb=20240815145507",
-                "duration": [
-                    "August 15, 2024",
-                    "September 28, 2024\n"
-                ],
-                "type": "1.2",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/By_Moon%27s_Grace"
-            },
-            {
-                "event": "Gifts of Lunar Radiance",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f8/Gifts_of_Lunar_Radiance.png/revision/latest/scale-to-width-down/200?cb=20240815145727",
-                "duration": [
-                    "August 15, 2024",
-                    "September 28, 2024\n"
-                ],
-                "type": "1.2",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Lunar_Radiance"
-            },
-            {
-                "event": "Do Echoids Dream of Electric Sheep?",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/4/48/Do_Echoids_Dream_of_Electric_Sheep%3F.jpg/revision/latest/scale-to-width-down/200?cb=20240808200340",
-                "duration": [
-                    "September 5, 2024",
-                    "September 26, 2024\n"
-                ],
-                "type": "1.2",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Do_Echoids_Dream_of_Electric_Sheep%3F"
-            },
-            {
-                "event": "Alloy Smelt II",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9a/Alloy_Smelt_1.2.jpg/revision/latest/scale-to-width-down/200?cb=20240808185629",
-                "duration": [
-                    "September 16, 2024",
-                    "September 28, 2024\n"
-                ],
-                "type": "1.2",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Alloy_Smelt/1.2"
             }
         ],
-        "Upcoming": [
+        "Upcoming": [],
+        "Permanent": [
             {
                 "event": "Awakening Journey",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d3/AwakeningJourney.png/revision/latest/scale-to-width-down/200?cb=20240614092830",
@@ -121,7 +67,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Awakening_Journey"
             },
             {
@@ -132,7 +78,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Echo_Hunters"
             },
             {
@@ -143,7 +89,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Thawing_Frost"
             },
             {
@@ -154,7 +100,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Rumbling_Hollows"
             },
             {
@@ -165,11 +111,10 @@
                     "Indefinite\n"
                 ],
                 "type": "1.2",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Reprise_of_Tides"
             }
-        ],
-        "Permanent": []
+        ]
     },
     "Codes": {
         "activeCodes": [
