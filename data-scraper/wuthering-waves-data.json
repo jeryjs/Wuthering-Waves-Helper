@@ -57,6 +57,17 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing_2024-09-20"
             },
             {
+                "event": "Wuthering Exploration 2024-09-12",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5c/WutheringExploration3.jpg/revision/latest/scale-to-width-down/200?cb=20241010233050",
+                "duration": [
+                    "October 10, 2024",
+                    "October 24, 2024\n"
+                ],
+                "type": "1.3",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Exploration_2024-10-10"
+            },
+            {
                 "event": "Parade of Stars",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d6/Parade_of_Stars.png/revision/latest/scale-to-width-down/200?cb=20240930192741",
                 "duration": [
@@ -77,6 +88,17 @@
                 "type": "1.3",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Fairy_Tale%27s_Finale"
+            },
+            {
+                "event": "Solaris Weather Forecast",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/b/bd/Solaris_Weather_Forecast.png/revision/latest/scale-to-width-down/200?cb=20241010231730",
+                "duration": [
+                    "October 10, 2024",
+                    "October 31, 2024\n"
+                ],
+                "type": "1.3",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Solaris_Weather_Forecast"
             }
         ],
         "Upcoming": [
