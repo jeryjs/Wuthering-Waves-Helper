@@ -2,6 +2,17 @@
     "Events": {
         "Current": [
             {
+                "event": "Gifts of Sea Breeze",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/26/Gifts_of_Sea_Breeze.png/revision/latest/scale-to-width-down/200?cb=20240930204951",
+                "duration": [
+                    "September 29, 2024",
+                    "November 13, 2024\n"
+                ],
+                "type": "[[Version/|]]",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Sea_Breeze"
+            },
+            {
                 "event": "Wuthering Waves x pixiv Illustration Contest",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f8/Collaboration_Wuthering_Waves_%C3%97_pixiv.png/revision/latest/scale-to-width-down/200?cb=20240802193727",
                 "duration": [
