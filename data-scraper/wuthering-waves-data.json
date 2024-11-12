@@ -13,61 +13,6 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Sea_Breeze"
             },
             {
-                "event": "Wuthering Waves x pixiv Illustration Contest",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f8/Collaboration_Wuthering_Waves_%C3%97_pixiv.png/revision/latest/scale-to-width-down/200?cb=20240802193727",
-                "duration": [
-                    "June 28, 2024",
-                    "August 18, 2024\n"
-                ],
-                "type": "1.1",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_x_pixiv"
-            },
-            {
-                "event": "Soliciting Ideas",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/20/Soliciting_Ideas.png/revision/latest/scale-to-width-down/200?cb=20240818172816",
-                "duration": [
-                    "August 12, 2024",
-                    "August 26, 2024\n"
-                ],
-                "type": "1.2",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Soliciting_Ideas"
-            },
-            {
-                "event": "Fan Creation Event \u201cIn the Turquoise Moonglow\u201d",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Fan_Creation_Event_2024-08-15.png/revision/latest/scale-to-width-down/200?cb=20240818162841",
-                "duration": [
-                    "August 15, 2024",
-                    "September 15, 2024\n"
-                ],
-                "type": "1.2",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Fan_Creation_Event/2024-08-15"
-            },
-            {
-                "event": "Version 1.2 Creator Program",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0f/Version_1.2_Creator_Program.png/revision/latest/scale-to-width-down/200?cb=20240818184949",
-                "duration": [
-                    "August 15, 2024",
-                    "September 28, 2024\n"
-                ],
-                "type": "1.2",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Version_1.2_Creator_Program"
-            },
-            {
-                "event": "Bountiful Crescendo 2024-10-17",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cf/Bountiful_Crescendo.png/revision/latest/scale-to-width-down/200?cb=20240710040446",
-                "duration": [
-                    "October 17, 2024",
-                    "October 24, 2024\n"
-                ],
-                "type": "1.3",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Bountiful_Crescendo_2024-10-17"
-            },
-            {
                 "event": "Infinite Battle Simulation",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a9/Infinite_Battle_Simulation.png/revision/latest/scale-to-width-down/200?cb=20241024233533",
                 "duration": [
@@ -114,6 +59,19 @@
         ],
         "Upcoming": [
             {
+                "event": "Somnium Labyrinth",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3e/Somnium_Labyrinth.jpg/revision/latest/scale-to-width-down/200?cb=20241111124731",
+                "duration": [
+                    "November 14, 2024",
+                    "January 1, 2025\n"
+                ],
+                "type": "1.4",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
+            }
+        ],
+        "Permanent": [
+            {
                 "event": "Awakening Journey",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d3/AwakeningJourney.png/revision/latest/scale-to-width-down/200?cb=20240614092830",
                 "duration": [
@@ -121,7 +79,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Awakening_Journey"
             },
             {
@@ -132,7 +90,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Echo_Hunters"
             },
             {
@@ -143,7 +101,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Thawing_Frost"
             },
             {
@@ -154,7 +112,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Rumbling_Hollows"
             },
             {
@@ -165,11 +123,21 @@
                     "Indefinite\n"
                 ],
                 "type": "1.2",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Reprise_of_Tides"
+            },
+            {
+                "event": "Somnium Labyrinth",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3e/Somnium_Labyrinth.jpg/revision/latest/scale-to-width-down/200?cb=20241111124731",
+                "duration": [
+                    "November 14, 2024",
+                    "January 1, 2025\n"
+                ],
+                "type": "1.4",
+                "status": "Permanent",
+                "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
             }
-        ],
-        "Permanent": []
+        ]
     },
     "Codes": {
         "activeCodes": [
