@@ -2,26 +2,15 @@
     "Events": {
         "Current": [
             {
-                "event": "Wuthering Exploration 2024-11-01",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/9/95/WutheringExploration4.jpg/revision/latest/scale-to-width-down/200?cb=20241101210620",
+                "event": "Pioneer Podcast 2024-11-14",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ca/Pioneer_Podcast_2024-11-14.png/revision/latest/scale-to-width-down/200?cb=20241115183410",
                 "duration": [
-                    "October 31, 2024",
-                    "November 13, 2024\n"
+                    "November 14, 2024",
+                    "January 1, 2025\n"
                 ],
-                "type": "1.3",
+                "type": "1.4",
                 "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Exploration/2024-11-01"
-            },
-            {
-                "event": "Chord Cleansing 2024-11-06",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c6/Chord_Cleansing_Echo.jpg/revision/latest/scale-to-width-down/200?cb=20241110203531",
-                "duration": [
-                    "November 6, 2024",
-                    "November 13, 2024\n"
-                ],
-                "type": "1.3",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing_2024-11-06"
+                "page": "https://wutheringwaves.fandom.com/wiki/Pioneer_Podcast/2024-11-14"
             },
             {
                 "event": "Gifts of Fleeting Dreams",
@@ -35,15 +24,15 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Fleeting_Dreams"
             },
             {
-                "event": "Parade of Stars",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d6/Parade_of_Stars.png/revision/latest/scale-to-width-down/200?cb=20240930192741",
+                "event": "Twitch Drops 2024-11-15",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c8/Twitch_Drops_2024-11-15.jpg/revision/latest/scale-to-width-down/200?cb=20241115173316",
                 "duration": [
-                    "September 29, 2024",
-                    "November 13, 2024\n"
+                    "November 15, 2024",
+                    "December 13, 2024\n"
                 ],
-                "type": "1.3",
+                "type": "1.4",
                 "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Parade_of_Stars"
+                "page": "https://wutheringwaves.fandom.com/wiki/Twitch_Drops/2024-11-15"
             },
             {
                 "event": "Depths of Illusive Realm: Phantasm Amass",
