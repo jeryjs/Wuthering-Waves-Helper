@@ -2,8 +2,30 @@
     "Events": {
         "Current": [
             {
+                "event": "Wuthering Waves Fan Creation Event \u201cWhen the night knocks\u201d",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/8/81/Wuthering_Waves_Fan_Creation_Event_2024-11-13.png/revision/latest/scale-to-width-down/200?cb=20241116052627",
+                "duration": [
+                    "November 13, 2024",
+                    "December 13, 2024\n"
+                ],
+                "type": "1.4",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Fan_Creation_Event/2024-11-13"
+            },
+            {
+                "event": "Wuthering Waves Battle Rush 2024-11-14",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1f/Wuthering_Waves_Battle_Rush_2024-11-14.jpg/revision/latest/scale-to-width-down/200?cb=20241116041620",
+                "duration": [
+                    "November 14, 2024",
+                    "December 26, 2024\n"
+                ],
+                "type": "1.4",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Battle_Rush/2024-11-14"
+            },
+            {
                 "event": "Pioneer Podcast 2024-11-14",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ca/Pioneer_Podcast_2024-11-14.png/revision/latest/scale-to-width-down/200?cb=20241115183410",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ca/Pioneer_Podcast_2024-11-14.png/revision/latest/scale-to-width-down/200?cb=20241116155133",
                 "duration": [
                     "November 14, 2024",
                     "January 1, 2025\n"
