@@ -92,6 +92,19 @@
         ],
         "Upcoming": [
             {
+                "event": "Beyond the Waves",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c1/Beyond_the_Waves.jpg/revision/latest/scale-to-width-down/200?cb=20241120110812",
+                "duration": [
+                    "November 21, 2024",
+                    "December 5, 2024\n"
+                ],
+                "type": "[[Version/|]]",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Beyond_the_Waves"
+            }
+        ],
+        "Permanent": [
+            {
                 "event": "Awakening Journey",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d3/AwakeningJourney.png/revision/latest/scale-to-width-down/200?cb=20240614092830",
                 "duration": [
@@ -99,7 +112,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Awakening_Journey"
             },
             {
@@ -110,7 +123,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Echo_Hunters"
             },
             {
@@ -121,7 +134,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Thawing_Frost"
             },
             {
@@ -132,7 +145,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Rumbling_Hollows"
             },
             {
@@ -143,7 +156,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.2",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Reprise_of_Tides"
             },
             {
@@ -154,11 +167,10 @@
                     "January 1, 2025\n"
                 ],
                 "type": "1.4",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
             }
-        ],
-        "Permanent": []
+        ]
     },
     "Codes": {
         "activeCodes": [
