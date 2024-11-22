@@ -2,6 +2,17 @@
     "Events": {
         "Current": [
             {
+                "event": "Beyond the Waves",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c1/Beyond_the_Waves.jpg/revision/latest/scale-to-width-down/200?cb=20241120110812",
+                "duration": [
+                    "November 21, 2024",
+                    "December 5, 2024\n"
+                ],
+                "type": "1.4",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Beyond_the_Waves"
+            },
+            {
                 "event": "Wuthering Waves Fan Creation Event \u201cWhen the night knocks\u201d",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/8/81/Wuthering_Waves_Fan_Creation_Event_2024-11-13.png/revision/latest/scale-to-width-down/200?cb=20241116052627",
                 "duration": [
@@ -92,15 +103,26 @@
         ],
         "Upcoming": [
             {
-                "event": "Beyond the Waves",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c1/Beyond_the_Waves.jpg/revision/latest/scale-to-width-down/200?cb=20241120110812",
+                "event": "Chord Cleansing 2024-12-05",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c6/Chord_Cleansing.jpg/revision/latest/scale-to-width-down/200?cb=20241110203531",
                 "duration": [
-                    "November 21, 2024",
-                    "December 5, 2024\n"
+                    "December 5, 2024",
+                    "December 12, 2024\n"
                 ],
-                "type": "[[Version/|]]",
+                "type": "1.4",
                 "status": "Upcoming",
-                "page": "https://wutheringwaves.fandom.com/wiki/Beyond_the_Waves"
+                "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing/2024-12-05"
+            },
+            {
+                "event": "Bountiful Crescendo 2024-12-25",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5b/Bountiful_Crescendo.jpg/revision/latest/scale-to-width-down/200?cb=20241115162345",
+                "duration": [
+                    "December 25, 2024",
+                    "January 1, 2025\n"
+                ],
+                "type": "1.4",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Bountiful_Crescendo/2024-12-25"
             }
         ],
         "Permanent": [
