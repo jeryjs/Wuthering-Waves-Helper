@@ -24,6 +24,17 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Battle_Rush/2024-11-14"
             },
             {
+                "event": "Depths of Illusive Realm: Phantasm Amass",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d8/Depths_of_Illusive_Realm_Phantasm_Amass.jpg/revision/latest/scale-to-width-down/200?cb=20241113124152",
+                "duration": [
+                    "November 14, 2024",
+                    "January 1, 2025\n"
+                ],
+                "type": "1.4",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Depths_of_Illusive_Realm/2024-11-14"
+            },
+            {
                 "event": "Pioneer Podcast 2024-11-14",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ca/Pioneer_Podcast_2024-11-14.png/revision/latest/scale-to-width-down/200?cb=20241116155133",
                 "duration": [
@@ -57,6 +68,17 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Pincer_Maneuver_Warriors/2024-11-14"
             },
             {
+                "event": "Somnium Labyrinth",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3e/Somnium_Labyrinth.jpg/revision/latest/scale-to-width-down/200?cb=20241111124731",
+                "duration": [
+                    "November 14, 2024",
+                    "January 1, 2025\n"
+                ],
+                "type": "1.4",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
+            },
+            {
                 "event": "Twitch Drops 2024-11-15",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c8/Twitch_Drops_2024-11-15.jpg/revision/latest/scale-to-width-down/200?cb=20241115173316",
                 "duration": [
@@ -77,31 +99,20 @@
                 "type": "1.4",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing/2024-12-05"
-            },
-            {
-                "event": "Depths of Illusive Realm: Phantasm Amass",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d8/Depths_of_Illusive_Realm_Phantasm_Amass.jpg/revision/latest/scale-to-width-down/200?cb=20241113124152",
-                "duration": [
-                    "November 14, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Depths_of_Illusive_Realm/2024-11-14"
-            },
-            {
-                "event": "Somnium Labyrinth",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3e/Somnium_Labyrinth.jpg/revision/latest/scale-to-width-down/200?cb=20241111124731",
-                "duration": [
-                    "November 14, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
             }
         ],
         "Upcoming": [
+            {
+                "event": "Ragunna Sales Blitz!",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/23/Ragunna_Sales_Blitz%21.jpg/revision/latest/scale-to-width-down/200?cb=20241211170037",
+                "duration": [
+                    "December 12, 2024",
+                    "January 1, 2025\n"
+                ],
+                "type": "1.4",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Ragunna_Sales_Blitz!"
+            },
             {
                 "event": "Bountiful Crescendo 2024-12-25",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5b/Bountiful_Crescendo.jpg/revision/latest/scale-to-width-down/200?cb=20241115162345",
