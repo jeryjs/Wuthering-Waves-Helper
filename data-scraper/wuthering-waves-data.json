@@ -2,6 +2,17 @@
     "Events": {
         "Current": [
             {
+                "event": "Ragunna Sales Blitz!",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/23/Ragunna_Sales_Blitz%21.jpg/revision/latest/scale-to-width-down/200?cb=20241211170037",
+                "duration": [
+                    "December 12, 2024",
+                    "January 1, 2025\n"
+                ],
+                "type": "1.4",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Ragunna_Sales_Blitz!"
+            },
+            {
                 "event": "Wuthering Waves Fan Creation Event \u201cWhen the night knocks\u201d",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/8/81/Wuthering_Waves_Fan_Creation_Event_2024-11-13.png/revision/latest/scale-to-width-down/200?cb=20241116052627",
                 "duration": [
@@ -68,17 +79,6 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
             },
             {
-                "event": "Twitch Drops 2024-11-15",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c8/Twitch_Drops_2024-11-15.jpg/revision/latest/scale-to-width-down/200?cb=20241115173316",
-                "duration": [
-                    "November 15, 2024",
-                    "December 13, 2024\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Twitch_Drops/2024-11-15"
-            },
-            {
                 "event": "Chord Cleansing 2024-12-05",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c6/Chord_Cleansing.jpg/revision/latest/scale-to-width-down/200?cb=20241110203531",
                 "duration": [
@@ -88,20 +88,20 @@
                 "type": "1.4",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing/2024-12-05"
-            }
-        ],
-        "Upcoming": [
+            },
             {
-                "event": "Ragunna Sales Blitz!",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/23/Ragunna_Sales_Blitz%21.jpg/revision/latest/scale-to-width-down/200?cb=20241211170037",
+                "event": "Pincer Maneuver Warriors II",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f4/Pincer_Maneuver_Warriors.png/revision/latest/scale-to-width-down/200?cb=20241117220629",
                 "duration": [
                     "December 12, 2024",
                     "January 1, 2025\n"
                 ],
                 "type": "1.4",
-                "status": "Upcoming",
-                "page": "https://wutheringwaves.fandom.com/wiki/Ragunna_Sales_Blitz!"
-            },
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Pincer_Maneuver_Warriors/2024-12-12"
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Bountiful Crescendo 2024-12-25",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5b/Bountiful_Crescendo.jpg/revision/latest/scale-to-width-down/200?cb=20241115162345",
