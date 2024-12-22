@@ -208,6 +208,84 @@
     "Codes": {
         "activeCodes": [
             {
+                "code": "GETREADY",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Astrite",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
+                    },
+                    {
+                        "name": "Premium Resonance Potion",
+                        "amount": "4",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d6/Item_Premium_Resonance_Potion.png/revision/latest/scale-to-width-down/74?cb=20240528230537"
+                    },
+                    {
+                        "name": "Advanced Energy Core",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b5/Item_Advanced_Energy_Core.png/revision/latest/scale-to-width-down/74?cb=20240524153038"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: December 21, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "OFFWEGO",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Astrite",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
+                    },
+                    {
+                        "name": "Forgery Premium Supply",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/13/Item_Forgery_Premium_Supply.png/revision/latest/scale-to-width-down/74?cb=20241006213641"
+                    },
+                    {
+                        "name": "Shell Credit",
+                        "amount": "40000",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Item_Shell_Credit.png/revision/latest/scale-to-width-down/74?cb=20240523132525"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: December 21, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "JOINCARNEVALE",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Astrite",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
+                    },
+                    {
+                        "name": "Premium Tuner",
+                        "amount": "20",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e1/Item_Premium_Tuner.png/revision/latest/scale-to-width-down/74?cb=20240529094703"
+                    },
+                    {
+                        "name": "Advanced Sealed Tube",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d6/Item_Advanced_Sealed_Tube.png/revision/latest/scale-to-width-down/74?cb=20240529094344"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: December 21, 2024",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
                 "code": "BLACKSHORES",
                 "server": "All",
                 "rewards": [
