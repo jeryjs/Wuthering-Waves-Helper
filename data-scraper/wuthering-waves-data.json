@@ -2,28 +2,6 @@
     "Events": {
         "Current": [
             {
-                "event": "Ragunna Sales Blitz!",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/23/Ragunna_Sales_Blitz%21.jpg/revision/latest/scale-to-width-down/200?cb=20241215142621",
-                "duration": [
-                    "December 12, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Ragunna_Sales_Blitz!"
-            },
-            {
-                "event": "Wuthering Waves Fan Creation Event \u201cWhen the night knocks\u201d",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/8/81/Wuthering_Waves_Fan_Creation_Event_2024-11-13.png/revision/latest/scale-to-width-down/200?cb=20241116052627",
-                "duration": [
-                    "November 13, 2024",
-                    "December 13, 2024\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Fan_Creation_Event/2024-11-13"
-            },
-            {
                 "event": "Wuthering Waves Battle Rush 2024-11-14",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1f/Wuthering_Waves_Battle_Rush_2024-11-14.jpg/revision/latest/scale-to-width-down/200?cb=20241116041620",
                 "duration": [
@@ -33,50 +11,6 @@
                 "type": "1.4",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Battle_Rush/2024-11-14"
-            },
-            {
-                "event": "Depths of Illusive Realm: Phantasm Amass",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d8/Depths_of_Illusive_Realm_Phantasm_Amass.jpg/revision/latest/scale-to-width-down/200?cb=20241113124152",
-                "duration": [
-                    "November 14, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Depths_of_Illusive_Realm/2024-11-14"
-            },
-            {
-                "event": "Pioneer Podcast 2024-11-14",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ca/Pioneer_Podcast_2024-11-14.png/revision/latest/scale-to-width-down/200?cb=20241116155133",
-                "duration": [
-                    "November 14, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Pioneer_Podcast/2024-11-14"
-            },
-            {
-                "event": "Gifts of Fleeting Dreams",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/a/ad/Gifts_of_Fleeting_Dreams.jpg/revision/latest/scale-to-width-down/200?cb=20241215144828",
-                "duration": [
-                    "November 14, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Fleeting_Dreams"
-            },
-            {
-                "event": "Somnium Labyrinth",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3e/Somnium_Labyrinth.jpg/revision/latest/scale-to-width-down/200?cb=20241229160014",
-                "duration": [
-                    "November 14, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
             },
             {
                 "event": "Chord Cleansing 2024-12-05",
@@ -90,17 +24,6 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing/2024-12-05"
             },
             {
-                "event": "Pincer Maneuver Warriors II",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/1/11/Pincer_Maneuver_Warriors.jpg/revision/latest/scale-to-width-down/200?cb=20241215145058",
-                "duration": [
-                    "December 12, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Pincer_Maneuver_Warriors/2024-12-12"
-            },
-            {
                 "event": "Rinascita Echo Fiesta",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0b/Rinascita_Echo_Fiesta.jpg/revision/latest/scale-to-width-down/200?cb=20241219163010",
                 "duration": [
@@ -110,17 +33,6 @@
                 "type": "1.4",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Rinascita_Echo_Fiesta"
-            },
-            {
-                "event": "Tactical Simulacra II",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/56/Tactical_Simulacra_II.jpg/revision/latest/scale-to-width-down/200?cb=20241219164404",
-                "duration": [
-                    "December 19, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Tactical_Simulacra_II"
             }
         ],
         "Upcoming": [
