@@ -2,28 +2,6 @@
     "Events": {
         "Current": [
             {
-                "event": "Wuthering Waves Battle Rush 2024-11-14",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1f/Wuthering_Waves_Battle_Rush_2024-11-14.jpg/revision/latest/scale-to-width-down/200?cb=20241116041620",
-                "duration": [
-                    "November 14, 2024",
-                    "December 26, 2024\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Battle_Rush/2024-11-14"
-            },
-            {
-                "event": "Chord Cleansing 2024-12-05",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c6/Chord_Cleansing.jpg/revision/latest/scale-to-width-down/200?cb=20241110203531",
-                "duration": [
-                    "December 5, 2024",
-                    "December 12, 2024\n"
-                ],
-                "type": "1.4",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing/2024-12-05"
-            },
-            {
                 "event": "Rinascita Echo Fiesta",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0b/Rinascita_Echo_Fiesta.jpg/revision/latest/scale-to-width-down/200?cb=20241219163010",
                 "duration": [
@@ -33,22 +11,75 @@
                 "type": "1.4",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Rinascita_Echo_Fiesta"
+            },
+            {
+                "event": "Wuthering Waves Battle Rush 2025-01-01",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d9/Wuthering_Waves_Battle_Rush_2025-01-01.jpg/revision/latest/scale-to-width-down/200?cb=20250102083733",
+                "duration": [
+                    "January 1, 2025",
+                    "February 5, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Battle_Rush/2025-01-01"
+            },
+            {
+                "event": "Twitch Drops 2025-01-01",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2e/Twitch_Drops_2025-01-01.jpg/revision/latest/scale-to-width-down/200?cb=20250102083154",
+                "duration": [
+                    "January 1, 2025",
+                    "January 29, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Twitch_Drops/2025-01-01"
+            },
+            {
+                "event": "Pioneer Podcast 2025-01-02",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a1/Pioneer_Podcast_2025-01-02.jpg/revision/latest/scale-to-width-down/200?cb=20250102035438",
+                "duration": [
+                    "January 2, 2025",
+                    "February 12, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Pioneer_Podcast/2025-01-02"
+            },
+            {
+                "event": "Gifts of Joyous Tunes",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5b/Gifts_of_Joyous_Tunes.jpg/revision/latest/scale-to-width-down/200?cb=20250102022514",
+                "duration": [
+                    "January 2, 2025",
+                    "February 12, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Joyous_Tunes"
+            },
+            {
+                "event": "Pincer Maneuver Warriors III",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/1/11/Pincer_Maneuver_Warriors.jpg/revision/latest/scale-to-width-down/200?cb=20250102094033",
+                "duration": [
+                    "January 2, 2025",
+                    "January 23, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Pincer_Maneuver_Warriors/2025-01-02"
+            },
+            {
+                "event": "Tactical Hologram: Phantom Pain",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0e/Tactical_Hologram_Phantom_Pain.jpg/revision/latest/scale-to-width-down/200?cb=20250102141527",
+                "duration": [
+                    "January 2, 2025",
+                    "February 13, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Tactical_Hologram:_Phantom_Pain"
             }
         ],
         "Upcoming": [
-            {
-                "event": "Bountiful Crescendo 2024-12-25",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5b/Bountiful_Crescendo.jpg/revision/latest/scale-to-width-down/200?cb=20241115162345",
-                "duration": [
-                    "December 25, 2024",
-                    "January 1, 2025\n"
-                ],
-                "type": "1.4",
-                "status": "Upcoming",
-                "page": "https://wutheringwaves.fandom.com/wiki/Bountiful_Crescendo/2024-12-25"
-            }
-        ],
-        "Permanent": [
             {
                 "event": "Awakening Journey",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d3/AwakeningJourney.png/revision/latest/scale-to-width-down/200?cb=20240614092830",
@@ -57,7 +88,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Awakening_Journey"
             },
             {
@@ -68,7 +99,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Echo_Hunters"
             },
             {
@@ -79,7 +110,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Thawing_Frost"
             },
             {
@@ -90,7 +121,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Rumbling_Hollows"
             },
             {
@@ -101,7 +132,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.2",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Reprise_of_Tides"
             },
             {
@@ -112,10 +143,22 @@
                     "January 1, 2025\n"
                 ],
                 "type": "1.4",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
+            },
+            {
+                "event": "Next Stop: Rinascita",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f7/Next_Stop_Rinascita.jpg/revision/latest/scale-to-width-down/200?cb=20250102053502",
+                "duration": [
+                    "January 2, 2025",
+                    "Indefinite\n"
+                ],
+                "type": "2.0",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Next_Stop:_Rinascita"
             }
-        ]
+        ],
+        "Permanent": []
     },
     "Codes": {
         "activeCodes": [
