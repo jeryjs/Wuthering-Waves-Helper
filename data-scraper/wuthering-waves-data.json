@@ -121,22 +121,20 @@
                 "type": "2.0",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Chord_Cleansing/2025-01-16"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Wuthering Exploration 2025-01-16",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cf/WutheringExploration5.jpeg/revision/latest/scale-to-width-down/200?cb=20250115062035",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c3/Wuthering_Exploration_2025-01-16.jpg/revision/latest/scale-to-width-down/200?cb=20250115062035",
                 "duration": [
                     "January 16, 2025",
                     "January 30, 2025\n"
                 ],
-                "type": "[[Version/|]]",
-                "status": "Upcoming",
-                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Exploration_2025-01-16"
+                "type": "2.0",
+                "status": "Current",
+                "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Exploration/2025-01-16"
             }
         ],
-        "Permanent": [
+        "Upcoming": [
             {
                 "event": "Awakening Journey",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d3/AwakeningJourney.png/revision/latest/scale-to-width-down/200?cb=20240614092830",
@@ -145,7 +143,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Awakening_Journey"
             },
             {
@@ -156,7 +154,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Echo_Hunters"
             },
             {
@@ -167,7 +165,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Thawing_Frost"
             },
             {
@@ -178,7 +176,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Rumbling_Hollows"
             },
             {
@@ -189,7 +187,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.2",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Reprise_of_Tides"
             },
             {
@@ -200,7 +198,7 @@
                     "January 1, 2025\n"
                 ],
                 "type": "1.4",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
             },
             {
@@ -211,7 +209,7 @@
                     "Indefinite\n"
                 ],
                 "type": "2.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Next_Stop:_Rinascita"
             },
             {
@@ -222,10 +220,11 @@
                     "Indefinite\n"
                 ],
                 "type": "2.0",
-                "status": "Permanent",
+                "status": "Upcoming",
                 "page": "https://wutheringwaves.fandom.com/wiki/Tales_of_the_Isles"
             }
-        ]
+        ],
+        "Permanent": []
     },
     "Codes": {
         "activeCodes": [
