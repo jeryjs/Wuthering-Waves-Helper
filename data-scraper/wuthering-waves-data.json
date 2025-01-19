@@ -229,6 +229,58 @@
     "Codes": {
         "activeCodes": [
             {
+                "code": "ALLEYESONUS",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Astrite",
+                        "amount": "80",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
+                    },
+                    {
+                        "name": "Advanced Energy Core",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b5/Item_Advanced_Energy_Core.png/revision/latest/scale-to-width-down/74?cb=20240524153038"
+                    },
+                    {
+                        "name": "Shell Credit",
+                        "amount": "50000",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d1/Item_Shell_Credit.png/revision/latest/scale-to-width-down/74?cb=20240523132525"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: January 18, 2025",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "STARRYSTAGE",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Astrite",
+                        "amount": "80",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Item_Astrite.png/revision/latest/scale-to-width-down/74?cb=20240523021541"
+                    },
+                    {
+                        "name": "Advanced Resonance Potion",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e2/Item_Advanced_Resonance_Potion.png/revision/latest/scale-to-width-down/74?cb=20240524152949"
+                    },
+                    {
+                        "name": "Advanced Enclosure Tank",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/wutheringwaves/images/a/ab/Item_Advanced_Enclosure_Tank.png/revision/latest/scale-to-width-down/74?cb=20241006213511"
+                    }
+                ],
+                "duration": [
+                    "Discoverd: January 18, 2025",
+                    "<b"
+                ],
+                "isExpired": false
+            },
+            {
                 "code": "WUWA4PC",
                 "server": "All",
                 "rewards": [
