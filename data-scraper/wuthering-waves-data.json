@@ -125,6 +125,52 @@
         ],
         "Upcoming": [
             {
+                "event": "Dances For Spring's Return",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b0/Dances_For_Spring%27s_Return.jpg/revision/latest/scale-to-width-down/200?cb=20250122103709",
+                "duration": [
+                    "January 23, 2025",
+                    "February 13, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Dances_For_Spring%27s_Return"
+            },
+            {
+                "event": "John Wicktorio: No Debts for Old Men",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3d/John_Wicktorio_No_Debts_for_Old_Men.jpg/revision/latest/scale-to-width-down/200?cb=20250122103144",
+                "duration": [
+                    "January 23, 2025",
+                    "February 9, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/John_Wicktorio:_No_Debts_for_Old_Men"
+            },
+            {
+                "event": "Pincer Maneuver Warriors IV",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/1/11/Pincer_Maneuver_Warriors.jpg/revision/latest/scale-to-width-down/200?cb=20250102094033",
+                "duration": [
+                    "January 23, 2025",
+                    "February 12, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Pincer_Maneuver_Warriors/2025-01-23"
+            },
+            {
+                "event": "Bountiful Crescendo 2025-02-06",
+                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5b/Bountiful_Crescendo.jpg/revision/latest/scale-to-width-down/200?cb=20241115162345",
+                "duration": [
+                    "February 6, 2025",
+                    "February 13, 2025\n"
+                ],
+                "type": "2.0",
+                "status": "Upcoming",
+                "page": "https://wutheringwaves.fandom.com/wiki/Bountiful_Crescendo/2025-02-06"
+            }
+        ],
+        "Permanent": [
+            {
                 "event": "Awakening Journey",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d3/AwakeningJourney.png/revision/latest/scale-to-width-down/200?cb=20240614092830",
                 "duration": [
@@ -132,7 +178,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Awakening_Journey"
             },
             {
@@ -143,7 +189,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Echo_Hunters"
             },
             {
@@ -154,7 +200,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Gifts_of_Thawing_Frost"
             },
             {
@@ -165,7 +211,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Rumbling_Hollows"
             },
             {
@@ -176,7 +222,7 @@
                     "Indefinite\n"
                 ],
                 "type": "1.2",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Reprise_of_Tides"
             },
             {
@@ -187,7 +233,7 @@
                     "January 1, 2025\n"
                 ],
                 "type": "1.4",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Somnium_Labyrinth"
             },
             {
@@ -198,7 +244,7 @@
                     "Indefinite\n"
                 ],
                 "type": "2.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Next_Stop:_Rinascita"
             },
             {
@@ -209,11 +255,10 @@
                     "Indefinite\n"
                 ],
                 "type": "2.0",
-                "status": "Upcoming",
+                "status": "Permanent",
                 "page": "https://wutheringwaves.fandom.com/wiki/Tales_of_the_Isles"
             }
-        ],
-        "Permanent": []
+        ]
     },
     "Codes": {
         "activeCodes": [
