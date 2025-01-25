@@ -68,17 +68,6 @@
                 "page": "https://wutheringwaves.fandom.com/wiki/Glamour_Couture"
             },
             {
-                "event": "Pincer Maneuver Warriors III",
-                "image": "https://static.wikia.nocookie.net/wutheringwaves/images/1/11/Pincer_Maneuver_Warriors.jpg/revision/latest/scale-to-width-down/200?cb=20250102094033",
-                "duration": [
-                    "January 2, 2025",
-                    "January 23, 2025\n"
-                ],
-                "type": "2.0",
-                "status": "Current",
-                "page": "https://wutheringwaves.fandom.com/wiki/Pincer_Maneuver_Warriors/2025-01-02"
-            },
-            {
                 "event": "Tactical Hologram: Phantom Pain",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0e/Tactical_Hologram_Phantom_Pain.jpg/revision/latest/scale-to-width-down/200?cb=20250102141527",
                 "duration": [
@@ -121,9 +110,7 @@
                 "type": "2.0",
                 "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Wuthering_Exploration/2025-01-16"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Dances For Spring's Return",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b0/Dances_For_Spring%27s_Return.jpg/revision/latest/scale-to-width-down/200?cb=20250122103709",
@@ -132,7 +119,7 @@
                     "February 13, 2025\n"
                 ],
                 "type": "2.0",
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Dances_For_Spring%27s_Return"
             },
             {
@@ -143,7 +130,7 @@
                     "February 9, 2025\n"
                 ],
                 "type": "2.0",
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/John_Wicktorio:_No_Debts_for_Old_Men"
             },
             {
@@ -154,9 +141,11 @@
                     "February 12, 2025\n"
                 ],
                 "type": "2.0",
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://wutheringwaves.fandom.com/wiki/Pincer_Maneuver_Warriors/2025-01-23"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Bountiful Crescendo 2025-02-06",
                 "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5b/Bountiful_Crescendo.jpg/revision/latest/scale-to-width-down/200?cb=20241115162345",
